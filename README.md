@@ -1,5 +1,113 @@
-# JS-cheatsheet
+# -JS-cheatsheet-
 
+# contend summary
+
+- [JavaScript Introduction:](#javascript-introduction)
+- [JavaScript Features:](#javascript-features)
+- [JavaScript Advantages:](#javascript-advantages)
+- [JavaScript Limitations:](#javascript-limitations)
+- [JavaScript Syntax:](#javascript-syntax)
+- [Including JavaScript in an HTML-Page:](#including-javascript-in-an-html-page)
+- [Call an External JavaScript file:](#call-an-external-javascript-file)
+- [Comments:](#comments)
+- [Variables in JavaScript:](#variables-in-javascript)
+- [Data Types](#data-types)
+- [Objects:](#objects)
+- [Array Methods:](#array-methods)
+- [Basic Operators:](#basic-operators)
+- [Comparison Operators:](#comparison-operators)
+- [Logical Operators:](#logical-operators)
+- [Bitwise Operators:](#bitwise-operators)
+- [Global Functions:](#global-functions)
+- [Outputting Data:](#outputting-data)
+- [Loops:](#loops)
+- [If/Else Statements:](#ifelse-statements)
+- [String Methods:](#string-methods)
+- [Math Methods:](#math-methods)
+- [Math properties:](#math-properties)
+- [Number properties:](#number-properties)
+- [Number Methods:](#number-methods)
+- [Set Data:](#set-data)
+- [Set UTC Data:](#set-utc-data)
+- [Get Data:](#get-data)
+- [Get UTC Data:](#get-utc-data)
+- [Regular Expressions:](#regular-expressions)
+- [Regular Expression Modifiers:](#regular-expression-modifiers)
+- [Regular Expression Patterns:](#regular-expression-patterns)
+- [Regular Expression Quantifiers:](#regular-expression-quantifiers)
+- [Error Handling:](#error-handling)
+- [Mouse Events:](#mouse-events)
+- [Keyboard Events:](#keyboard-events)
+- [Frame Events:](#frame-events)
+- [Form Events:](#form-events)
+- [Drag Events:](#drag-events)
+- [Clipboard Events:](#clipboard-events)
+- [Media Events:](#media-events)
+- [Form Validation:](#form-validation)
+- [Web Storage:](#web-storage)
+- [Web Workers:](#web-workers)
+- [Web Sockets:](#web-sockets)
+
+
+&uarr; [back to Top](#top)
+## JavaScript Introduction:
+
+JavaScript is a lightweight, interpreted programming language. It is designed for creating network-centric applications. It is complimentary to and integrated with Java. JavaScript is very easy to implement because it is integrated with HTML. It is open and cross-platform.
+
+&uarr; [back to summary](#top)
+## JavaScript Features:
+
+1. **Interpreted Language:** JavaScript is an interpreted language, not compiled.
+2. **Client-Side Language:** JavaScript is a client-side language. It runs on the client-side browser.
+3. **Object-Based:** JavaScript is an object-based language.
+4. **Lightweight:** JavaScript is lightweight.
+5. **Versatile:** JavaScript is versatile.
+6. **High Performance:** JavaScript is a high-performance language.
+7. **Interpreted Language:** JavaScript is an interpreted language, not compiled.
+8. **Client-Side Language:** JavaScript is a client-side language. It runs on the client-side browser.
+9. **Object-Based:** JavaScript is an object-based language.
+10. **Lightweight:** JavaScript is lightweight.
+11. **Versatile:** JavaScript is versatile.
+12. **High Performance:** JavaScript is a high-performance language.
+
+&uarr; [back to summary](#top)
+## JavaScript Advantages:
+
+1. **Less Server Interaction:** You can validate user input before sending the page off to the server. This saves server traffic, which means less load on your server.
+2. **Immediate Feedback to the Visitors:** They don't have to wait for a page reload to see if they have forgotten to enter something.
+3. **Increased Interactivity:** You can create interfaces that react when the user hovers over them with a mouse or activates them via the keyboard.
+4. **Richer Interfaces:** You can use JavaScript to include such items as drag-and-drop components and sliders to give a Rich Interface to your site visitors.
+5. **Server Load:** You can reduce the server load by using JavaScript to validate form data before sending it to the server. This way, your server doesn't have to do as much work.
+
+&uarr; [back to summary](#top)
+## JavaScript Limitations:
+
+1. **Client-Side Security:** You should be aware that JavaScript is executed on the client-side. So, it doesn't have the ability to interact with the database.
+2. **Browser Support:** You have to write different code for different browsers. For example, Chrome, Firefox, and IE.
+3. **No Multithreading or Multiprocessing:** JavaScript does not provide the facility for multithreading or multiprocessing.
+
+&uarr; [back to summary](#top)
+## JavaScript Syntax:
+
+1. **Case Sensitivity:** JavaScript is case-sensitive.
+2. **Semicolons:** JavaScript uses semicolons to separate statements.
+3. **Whitespace:** JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.
+4. **Comments:** JavaScript supports both single-line and multi-line comments.
+
+&uarr; [back to summary](#top)
+## JavaScript Variables:
+
+1. **Variable:** A variable is a container for storing data values.
+2. **Variable Naming:** A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($). Subsequent characters can be letters, digits, underscores, or dollar signs.
+3. **Variable Scope:** The scope of a variable is the region of your program in which it is defined. JavaScript variables have only two scopes: global and local.
+4. **Variable Declaration:** You can declare a variable in JavaScript using the var keyword.
+5. **Variable Initialization:** You can initialize a variable in JavaScript when you declare it.
+6. **Variable Re-declaration:** You can re-declare a JavaScript variable without generating an error.
+7. **Variable Hoisting:** JavaScript hoists variable declarations to the top of the current scope.
+
+
+
+&uarr; [back to summary](#top)
 ## Including JavaScript in an HTML-Page:
 
 ```
@@ -7,17 +115,22 @@
   // JS code gose here
 </script>
 ```
+
+&uarr; [back to summary](#top)
 ## Call an External JavaScript file:
 
 ```
 <script src="myScript.js"></script>
 ```
+
+&uarr; [back to summary](#top)
 ## Comments:
 
 Single line comments : ``` // only single line comments ```
 
 Multi-line comments : ``` /* comment here */ ```
 
+&uarr; [back to summary](#top)
 ## Variables in JavaScript:
 
 ``` var : common variable, scoped to functions. ```
@@ -26,6 +139,7 @@ Multi-line comments : ``` /* comment here */ ```
 
 ``` let : Mutable variable. ```
 
+&uarr; [back to summary](#top)
 ## Data Types 
 
 Type | Example
@@ -39,6 +153,7 @@ Constant numbers | const PI = 3.14159;
 Objects | var person = {firstName:"John", lastName:"Doe"};
 
 
+&uarr; [back to summary](#top)
 ## Objects:
 
 ```
@@ -49,6 +164,8 @@ var person = {
   eyeColor: "blue"
 };
 ```
+
+&uarr; [back to summary](#top)
 ## Array Methods:
   
  syntax | Example
@@ -68,6 +185,7 @@ var person = {
   unshift() | Adds new elements to the beginning of an array, and returns the new length.
   valueOf() | Returns the primitive value of an array.
 
+&uarr; [back to summary](#top)
 ## Basic Operators:
 
 Operator | Description
@@ -81,6 +199,7 @@ Operator | Description
 '--' | Decrement
 '(...)'| Grouping
 
+&uarr; [back to summary](#top)
 ## Comparison Operators:
 
 Operator | Description
@@ -94,6 +213,7 @@ Operator | Description
 '>=' | Greater than or equal to
 '<=' | Less than or equal to
 
+&uarr; [back to summary](#top)
 ## Logical Operators:
 
 Operator | Description
@@ -102,6 +222,7 @@ Operator | Description
 '||' | Logical or
 '!' | Logical not
 
+&uarr; [back to summary](#top)
 ## Bitwise Operators:
 
 Operator | Description
@@ -114,6 +235,7 @@ Operator | Description
 '>>' | Signed right shift
 '>>>' | Zero fill right shift
 
+&uarr; [back to summary](#top)
 ## Global Functions:
 
 Function | Description
@@ -131,6 +253,7 @@ parseInt() | Parses a string and returns an integer
 String() | Converts an object's value to a string
 typeof() | Returns the type of a variable
 
+&uarr; [back to summary](#top)
 ## Outputting Data:
 
 Function | Description
@@ -141,6 +264,7 @@ console.log() | Writes an error message to the console
 document.write() | Writes HTML expressions or JavaScript code to a document
 prompt() | Displays a dialog box that prompts the visitor for input
 
+&uarr; [back to summary](#top)
 ## Loops:
 
 Function | Description
@@ -153,6 +277,7 @@ do/while | Also loops through a block of code while a specified condition is tru
 break | Exits a loop
 continue | Jumps out of a loop and starts at the top
 
+&uarr; [back to summary](#top)
 ## If/Else Statements:
 
 Function | Description
@@ -162,6 +287,7 @@ else | Executes a block of code if a specified condition is false
 else if | Executes a block of code if a specified condition is false
 switch | Evaluates an expression, and executes the case that matches the expression
 
+&uarr; [back to summary](#top)
 ## String Methods:
 
 Function | Description
@@ -183,6 +309,7 @@ toLowerCase() | Converts a string to lowercase letters
 toUpperCase() | Converts a string to uppercase letters
 valueOf() | Returns the primitive value of a string object
 
+&uarr; [back to summary](#top)
 ## Math Methods:
 
 Function | Description
@@ -206,6 +333,7 @@ sin() | Returns the sine of a number
 sqrt() | Returns the square root of a number
 tan() | Returns the tangent of a number
 
+&uarr; [back to summary](#top)
 ## Math properties:
 
 Property | Description
@@ -219,6 +347,7 @@ PI | Returns PI
 SQRT1_2 | Returns the square root of 1/2
 SQRT2 | Returns the square root of 2
 
+&uarr; [back to summary](#top)
 ## Number properties:
 
 Property | Description
@@ -229,6 +358,7 @@ NaN | Represents "Not-a-Number" value
 NEGATIVE_INFINITY | Represents negative infinity (returned on overflow)
 POSITIVE_INFINITY | Represents infinity (returned on overflow)
 
+&uarr; [back to summary](#top)
 ## Number Methods:
 
 Function | Description
@@ -239,6 +369,7 @@ toPrecision() | Returns a string, with a number written with a specified length
 toString() | Returns a number as a string
 valueOf() | Returns a number as a number
 
+&uarr; [back to summary](#top)
 ## Set Data:
 
 Function | Description
@@ -252,6 +383,7 @@ setSeconds() | Sets the seconds of a date object
 setMilliseconds() | Sets the milliseconds of a date object
 setTime() | Sets a date to a specified number of milliseconds after/before January 1, 1970
 
+&uarr; [back to summary](#top)
 ## Set UTC Data:
 
 Function | Description
@@ -264,6 +396,7 @@ setUTCMinutes() | Sets the minutes of a date object, according to universal time
 setUTCSeconds() | Sets the seconds of a date object, according to universal time
 setUTCMilliseconds() | Sets the milliseconds of a date object, according to universal time
 
+&uarr; [back to summary](#top)
 ## Get Data:
 
 Function | Description
@@ -282,6 +415,7 @@ getSeconds() | Returns the seconds of a date object
 getMilliseconds() | Returns the milliseconds of a date object
 getTime() | Returns the number of milliseconds since midnight Jan 1, 1970
 
+&uarr; [back to summary](#top)
 ## Get UTC Data:
 
 Function | Description
@@ -295,6 +429,7 @@ getUTCMinutes() | Returns the minutes of a date object, according to universal t
 getUTCSeconds() | Returns the seconds of a date object, according to universal time
 getUTCMilliseconds() | Returns the milliseconds of a date object, according to universal time
 
+&uarr; [back to summary](#top)
 ## Regular Expressions:
 
 Function | Description
@@ -303,6 +438,7 @@ exec() | Tests for a match in a string. Returns the first match
 test() | Tests for a match in a string. Returns true or false
 toString() | Returns the string value of the regular expression
 
+&uarr; [back to summary](#top)
 ## Regular Expression Modifiers:
 
 Modifier | Description
@@ -311,6 +447,7 @@ g | Perform a global match (find all matches rather than stopping after the firs
 i | Perform case-insensitive matching
 m | Perform multiline matching
 
+&uarr; [back to summary](#top)
 ## Regular Expression Patterns:
 
 Pattern | Description
@@ -325,6 +462,7 @@ Pattern | Description
 [^adgk] | Find any character NOT in the given set
 (red|blue|green) | Find any of the alternatives specified
 
+&uarr; [back to summary](#top)
 ## Regular Expression Quantifiers:
 
 Quantifier | Description
@@ -340,6 +478,7 @@ n$ | Matches any string with n at the end of it
 ?=n | Matches any string that is followed by a specific string n
 ?!n | Matches any string that is not followed by a specific string n
 
+&uarr; [back to summary](#top)
 ## Error Handling:
 
 Function | Description
@@ -351,6 +490,7 @@ finally | Executes code, after try and catch, regardless of the result
 Error | Creates an error object
 Error object | Contains error name and error message
 
+&uarr; [back to summary](#top)
 ### try
 
 The try statement allows you to define a block of code to be tested for errors while it is being executed.
@@ -386,6 +526,7 @@ console.log(result); // This will not be executed
 };
 ```
 
+&uarr; [back to summary](#top)
 ## Mouse Events:
 
 Event |Description
@@ -400,6 +541,7 @@ mouseout | Occurs when the pointer is moved out of an element, or out of one of 
 mouseleave | Occurs when the pointer is moved out of an element
 mousemove | Occurs when the pointer is moving while it is over an element
 
+&uarr; [back to summary](#top)
 ## Keyboard Events:
 
 Event |Description
@@ -412,6 +554,7 @@ keypress* | Occurs when a keyboard key is pressed
 
 Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.
 
+&uarr; [back to summary](#top)
 ## Frame Events:
 
 Event | Description
@@ -427,6 +570,7 @@ resize | Occurs when the document view is resized
 scroll | Occurs when the document view is scrolled
 unload | Occurs once a page has unloaded (or the browser window has been closed)
 
+&uarr; [back to summary](#top)
 ## Form Events:
 
 Event | Description
@@ -441,6 +585,7 @@ invalid | Occurs when an element is invalid
 reset | Occurs when a form is reset
 submit | Occurs when a form is submitted
 
+&uarr; [back to summary](#top)
 ## Drag Events:
 
 Event | Description
@@ -453,6 +598,7 @@ dragover | Occurs when an element is being dragged over a drop target
 dragstart | Occurs when the dragging of an element is about to start
 drop | Occurs when an element is dropped
 
+&uarr; [back to summary](#top)
 ## Clipboard Events:
 
 Event | Description
@@ -461,6 +607,7 @@ copy | Occurs when the user copies the content of an element
 cut | Occurs when the user cuts the content of an element
 paste | Occurs when the user pastes some content in an element
 
+&uarr; [back to summary](#top)
 ## Media Events:
 
 Event | Description
@@ -489,6 +636,7 @@ volumechange | Occurs when the volume of the audio/video is changed
 waiting | Occurs when the video stops because it needs to buffer the next frame
 
 
+&uarr; [back to summary](#top)
 ## Form Validation:
 
 Function | Description
@@ -496,6 +644,7 @@ Function | Description
 checkValidity() | Returns false if an input element contains invalid data
 setCustomValidity() | Sets the validationMessage property of an input element
 
+&uarr; [back to summary](#top)
 ## Web Storage:
 
 Function | Description
@@ -503,6 +652,7 @@ Function | Description
 localStorage | Stores data with no expiration date
 sessionStorage | Stores data for one session (data is lost when the browser tab is closed)
 
+&uarr; [back to summary](#top)
 ## Web Workers:
 
 Function | Description
@@ -512,6 +662,7 @@ terminate() | Terminates a worker
 onmessage | Defines an event listener for worker
 postMessage() | Sends a message to a worker
 
+&uarr; [back to summary](#top)
 ## Web Sockets:
 
 Function | Description
@@ -523,5 +674,4 @@ onmessage | Defines an event listener for message
 onerror | Defines an event listener for error
 onclose | Defines an event listener for close
 
-
-
+&uarr; [back to summary](#top)
