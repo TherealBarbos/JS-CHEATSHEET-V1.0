@@ -85,34 +85,34 @@ Operator | Description
 
 Operator | Description
 -------- |  --------
-== | Equal to
-=== | Equal value and equal type
-!= | Not equal
-!== | Not equal value or not equal type
-> | Greater than
-< | Less than
->= | Greater than or equal to
-<= | Less than or equal to
+'==' | Equal to
+'===' | Equal value and equal type
+'!=' | Not equal
+'!==' | Not equal value or not equal type
+'>' | Greater than
+'<' | Less than
+'>=' | Greater than or equal to
+'<=' | Less than or equal to
 
 ## Logical Operators:
 
 Operator | Description
 -------- |  --------
-&& | Logical and
-|| | Logical or
-! | Logical not
+'&&' | Logical and
+'||' | Logical or
+'!' | Logical not
 
 ## Bitwise Operators:
 
 Operator | Description
 -------- |  --------
-& | AND
-| | OR
-~ | NOT
-^ | XOR
-<< | Zero fill left shift
->> | Signed right shift
->>> | Zero fill right shift
+'&' | AND
+'|' | OR
+'~' | NOT
+'^' | XOR
+'<<' | Zero fill left shift
+'>>' | Signed right shift
+'>>>' | Zero fill right shift
 
 ## Global Functions:
 
