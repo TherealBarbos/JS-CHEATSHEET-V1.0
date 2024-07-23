@@ -1,6 +1,6 @@
-# -JS-cheatsheet-
+# - JS-CHEATSHEET -
 
-# contend summary
+# Summary
 
 - [JavaScript Introduction:](#javascript-introduction)
 - [JavaScript Features:](#javascript-features)
