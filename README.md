@@ -51,7 +51,7 @@ var person = {
 ```
 ## Array Methods:
   
- 
+ syntax | Example
   -------- |  --------
   concat() | Combines arrays.
   indexOf() | Finds the index of an element in an array.
