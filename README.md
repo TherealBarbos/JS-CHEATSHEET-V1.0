@@ -72,14 +72,14 @@ var person = {
 
 Operator | Description
 -------- |  --------
-+ | Addition
-- | Subtraction
-* | Multiplication
-/ | Division
-% | Modulus
-++ | Increment
--- | Decrement
-(...)| Grouping
+'+' | Addition
+'-' | Subtraction
+'*' | Multiplication
+'/' | Division
+'%' | Modulus
+'++' | Increment
+'--' | Decrement
+'(...)'| Grouping
 
 ## Comparison Operators:
 
