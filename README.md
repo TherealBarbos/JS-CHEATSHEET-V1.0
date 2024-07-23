@@ -1,6 +1,76 @@
 # - JS-CHEATSHEET -
 
-# Summary
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#top">Top</a>
+    </li>
+    <li>
+      <a href="#javascript-introduction">JavaScript Introduction</a>
+    </li>
+    <li>
+      <a href="#javascript-features">JavaScript Features</a>
+    </li>
+    <li>
+      <a href="#javascript-advantages">JavaScript Advantages</a>
+    </li>
+    <li>
+      <a href="#javascript-limitations">JavaScript Limitations</a>
+    </li>
+    <li>
+      <a href="#javascript-syntax">JavaScript Syntax</a>
+    </li>
+    <li>
+      <a href="#including-javascript-in-an-html-page">Including JavaScript in an HTML-Page</a>
+    </li>
+    <li>
+      <a href="#call-an-external-javascript-file">Call an External JavaScript file</a>
+    </li>
+    <li>
+      <a href="#comments">Comments</a>
+    </li>
+    <li>
+      <a href="#variables-in-javascript">Variables in JavaScript</a>
+    </li>
+    <li>
+      <a href="#data-types">Data Types</a>
+    </li>
+    <li>
+      <a href="#objects">Objects</a>
+    </li>
+    <li>
+      <a href="#array-methods">Array Methods</a>
+    </li>
+    <li>
+      <a href="#basic-operators">Basic Operators</a>
+    </li>
+    <li>
+      <a href="#comparison-operators">Comparison Operators</a>
+    </li>
+    <li>
+      <a href="#logical-operators">Logical Operators</a>
+    </li>
+    <li>
+      <a href="#bitwise-operators">Bitwise Operators</a>
+    </li>
+    <li>
+      <a href="#global-functions">Global Functions</a>
+    </li>
+    <li>
+      <a href="#outputting-data">Outputting Data</a>
+    </li>
+    <li>
+      <a href="#loops">Loops</a>
+    </li>
+    <li>
+      <a href="#ifelse-statements">If/Else Statements</a>
+    </li>
+    <li>
+      <a href="#string-methods">String Methods</a>
+    </li>
+
 
     
 - [JavaScript Introduction:](#javascript-introduction)
