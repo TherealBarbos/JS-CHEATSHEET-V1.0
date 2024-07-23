@@ -52,6 +52,7 @@ var person = {
 ## Array Methods:
   
   ```
+  -------- |  --------
   concat() | Combines arrays.
   indexOf() | Finds the index of an element in an array.
   join() | Joins all elements of an array into a string.
@@ -67,4 +68,3 @@ var person = {
   unshift() | Adds new elements to the beginning of an array, and returns the new length.
   valueOf() | Returns the primitive value of an array.
   ```
-  
