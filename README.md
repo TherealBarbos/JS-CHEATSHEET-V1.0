@@ -121,12 +121,18 @@
 
 
 &uarr; [back to Top](#top)
+
 ## JavaScript Introduction:
+<details>
 
 JavaScript is a lightweight, interpreted programming language. It is designed for creating network-centric applications. It is complimentary to and integrated with Java. JavaScript is very easy to implement because it is integrated with HTML. It is open and cross-platform.
 
+</details>
+
 &uarr; [back to Top](#top)
+
 ## JavaScript Features:
+<details>
 
 1. **Interpreted Language:** JavaScript is an interpreted language, not compiled.
 2. **Client-Side Language:** JavaScript is a client-side language. It runs on the client-side browser.
@@ -141,7 +147,10 @@ JavaScript is a lightweight, interpreted programming language. It is designed fo
 11. **Versatile:** JavaScript is versatile.
 12. **High Performance:** JavaScript is a high-performance language.
 
+</details>
+
 &uarr; [back to Top](#top)
+
 ## JavaScript Advantages:
 <details>
 1. **Less Server Interaction:** You can validate user input before sending the page off to the server. This saves server traffic, which means less load on your server.
@@ -178,6 +187,7 @@ JavaScript is a lightweight, interpreted programming language. It is designed fo
 &uarr; [back to Top](#top)
 
 ## JavaScript Variables:
+<details>
 
 1. **Variable:** A variable is a container for storing data values.
 2. **Variable Naming:** A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($). Subsequent characters can be letters, digits, underscores, or dollar signs.
@@ -187,9 +197,10 @@ JavaScript is a lightweight, interpreted programming language. It is designed fo
 6. **Variable Re-declaration:** You can re-declare a JavaScript variable without generating an error.
 7. **Variable Hoisting:** JavaScript hoists variable declarations to the top of the current scope.
 
-
+</details>
 
 &uarr; [back to Top](#top)
+
 ## Including JavaScript in an HTML-Page:
 
 ```
