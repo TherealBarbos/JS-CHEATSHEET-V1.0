@@ -143,7 +143,7 @@ JavaScript is a lightweight, interpreted programming language. It is designed fo
 
 &uarr; [back to Top](#top)
 ## JavaScript Advantages:
-
+<details>
 1. **Less Server Interaction:** You can validate user input before sending the page off to the server. This saves server traffic, which means less load on your server.
 2. **Immediate Feedback to the Visitors:** They don't have to wait for a page reload to see if they have forgotten to enter something.
 3. **Increased Interactivity:** You can create interfaces that react when the user hovers over them with a mouse or activates them via the keyboard.
@@ -151,6 +151,7 @@ JavaScript is a lightweight, interpreted programming language. It is designed fo
 5. **Server Load:** You can reduce the server load by using JavaScript to validate form data before sending it to the server. This way, your server doesn't have to do as much work.
 
 &uarr; [back to Top](#top)
+</details>
 ## JavaScript Limitations:
 
 1. **Client-Side Security:** You should be aware that JavaScript is executed on the client-side. So, it doesn't have the ability to interact with the database.
