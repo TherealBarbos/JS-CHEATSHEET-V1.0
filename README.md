@@ -1,4 +1,4 @@
-# - JS-CHEATSHEET -
+# - JavaScript -
 
 <!-- TABLE OF CONTENTS -->
 <details>
