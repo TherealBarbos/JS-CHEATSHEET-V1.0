@@ -150,25 +150,33 @@ JavaScript is a lightweight, interpreted programming language. It is designed fo
 4. **Richer Interfaces:** You can use JavaScript to include such items as drag-and-drop components and sliders to give a Rich Interface to your site visitors.
 5. **Server Load:** You can reduce the server load by using JavaScript to validate form data before sending it to the server. This way, your server doesn't have to do as much work.
 
-&uarr; [back to Top](#top)
-
 </details>
 
+&uarr; [back to Top](#top)
+
 ## JavaScript Limitations:
+<details>
 
 1. **Client-Side Security:** You should be aware that JavaScript is executed on the client-side. So, it doesn't have the ability to interact with the database.
 2. **Browser Support:** You have to write different code for different browsers. For example, Chrome, Firefox, and IE.
 3. **No Multithreading or Multiprocessing:** JavaScript does not provide the facility for multithreading or multiprocessing.
 
+</details>
+
 &uarr; [back to Top](#top)
+
 ## JavaScript Syntax:
+<details>
 
 1. **Case Sensitivity:** JavaScript is case-sensitive.
 2. **Semicolons:** JavaScript uses semicolons to separate statements.
 3. **Whitespace:** JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.
 4. **Comments:** JavaScript supports both single-line and multi-line comments.
 
+</details>
+
 &uarr; [back to Top](#top)
+
 ## JavaScript Variables:
 
 1. **Variable:** A variable is a container for storing data values.
