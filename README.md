@@ -70,7 +70,7 @@
     <li>
       <a href="#string-methods">String Methods</a>
     </li>
-
+</details>
 
     
 - [JavaScript Introduction:](#javascript-introduction)
