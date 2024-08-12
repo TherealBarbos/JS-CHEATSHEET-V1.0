@@ -151,7 +151,9 @@ JavaScript is a lightweight, interpreted programming language. It is designed fo
 5. **Server Load:** You can reduce the server load by using JavaScript to validate form data before sending it to the server. This way, your server doesn't have to do as much work.
 
 &uarr; [back to Top](#top)
+
 </details>
+
 ## JavaScript Limitations:
 
 1. **Client-Side Security:** You should be aware that JavaScript is executed on the client-side. So, it doesn't have the ability to interact with the database.
